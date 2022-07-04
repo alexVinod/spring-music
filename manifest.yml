@@ -2,6 +2,7 @@
 applications:
 - name: spring-music
   memory: 64M
+  disk_quota: 1G
   random-route: true
   path: build/libs/spring-music-1.0.jar
   env:
